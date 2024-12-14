@@ -1,0 +1,58 @@
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-image: url(https://loremflickr.com/cache/resized/defaultImage.small_320_240_g.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: brown;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: azure;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
